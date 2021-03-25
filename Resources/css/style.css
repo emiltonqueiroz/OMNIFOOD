@@ -25,6 +25,10 @@ html {
 section {
   padding: 80px 0;
 }
+
+.box{
+  padding: 1%;
+}
 /*---------Heading--------*/
 h1,
 h2 {
@@ -58,6 +62,32 @@ h2::after {
   margin-top: 30px;
 }
 
+h3{
+  font-size: 110%;
+  margin-bottom: 15px;
+}
+
+
+/*---------Paragraphs--------*/
+.long-copy {
+  line-height: 145%;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.box p{
+  font-size: 90%;
+  line-height: 145%;
+}
+
+
+/*---------Header Buttons--------*/
+.icon-big{
+  font-size: 300%;
+  display: block;
+  color: #e67e22;
+  margin-bottom: 10px;
+}
 /*---------Header Buttons--------*/
 .btn:link,
 .btn:visited {
