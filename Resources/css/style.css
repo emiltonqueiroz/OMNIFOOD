@@ -445,11 +445,13 @@ input[type="checkbox"] {
   margin: 10px 5px 10px 0;
 }
 
-*:focus {outline: none;}
+*:focus {
+  outline: none;
+}
 
 /*---------FOOTER--------*/
 footer {
-  background-color: #333;
+  background-color: rgb(24, 24, 24);
   padding: 50px;
   font-size: 80%;
 }
@@ -476,7 +478,7 @@ footer {
 }
 
 .footer-nav li a:link,
-.footer-nav li a:visited, 
+.footer-nav li a:visited,
 .social-links li a:link,
 .social-links li a:visited {
   text-decoration: none;
@@ -496,7 +498,10 @@ footer {
   font-size: 160%;
 }
 
-  {
+.ion-facebook,
+.ion-twitter,
+.ion-google,
+.ion-instagram {
   -webkit-transition: color 0.2s;
   transition: color 0.2s;
 }
@@ -517,9 +522,8 @@ footer {
   color: #517fa4;
 }
 
-
 footer p {
-  color: #888;
+  color: rgb(190, 190, 190);
   text-align: center;
   margin-top: 20px;
 }
